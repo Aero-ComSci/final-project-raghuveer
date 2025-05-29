@@ -1,0 +1,26 @@
+def show_list(activities):
+    print("\nSummer Bucket List:")
+    for activity in activities:
+        print("-", activity)
+
+bucket_list = ["Go to the beach", "Go to a different country", "Watch a sunset", "Get Ice Cream", "Go on a road trip", "Have a water fight", "Host a party"]
+
+show_list(bucket_list)
+
+while bucket_list:
+    done = input("\nEnter the number of an activity you completed (or 'exit' to stop): ")
+    if done.lower() == 'exit':
+        break  
+    try:
+        done = int(done)
+        if 1 <= done <= len(bucket_list):
+            activity = bucket_list.pop(done - 1)  
+            print(f"Nice! You did: {activity}")  
+            show_list(bucket_list)
+        else:
+            print("Out of Index. Try again!")
+    except ValueError:
+        print("Please enter a valid number.")
+
+show_list(bucket_list)
+print("Enjoy your summer!")
