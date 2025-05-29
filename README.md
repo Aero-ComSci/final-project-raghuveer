@@ -20,7 +20,8 @@ This program is designed for anyone looking to **track their summer bucket list*
 ---
 
 ## 📸 Screenshots / Demo  
-![Bucket List Screenshot](https://your-image-link-here.com)  
+![image](https://github.com/user-attachments/assets/36591e1e-457d-4b3a-ad8d-8d33bd5b202d)
+ 
 📽️ **Demo Video:** [Watch Here](https://your-video-link-here.com)  
 
 ---
